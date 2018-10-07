@@ -9,4 +9,7 @@ main.appendChild(header);
 var ul = document.createElement('ul');
 main.appendChild(ul);
 
+var li = document.createElement('li');
+ul.appendChild(li);
+
 console.log(header);

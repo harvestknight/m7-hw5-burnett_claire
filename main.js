@@ -18,5 +18,6 @@ header.appendChild(headerText);
 li.appendChild(listItemText);
 
 header.classList.add('mystyle');
+main.classList.add('text-center');
 
 console.log(headerText);

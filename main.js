@@ -20,4 +20,6 @@ li.appendChild(listItemText);
 header.classList.add('mystyle');
 main.classList.add('text-center');
 
-console.log(headerText);
+var link = document.createElement('a');
+
+console.log(link);

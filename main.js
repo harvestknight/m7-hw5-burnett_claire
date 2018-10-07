@@ -17,4 +17,6 @@ var listItemText = document.createTextNode('This is the list item');
 header.appendChild(headerText);
 li.appendChild(listItemText);
 
+header.classList.add('mystyle');
+
 console.log(headerText);

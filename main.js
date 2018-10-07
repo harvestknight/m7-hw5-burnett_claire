@@ -12,4 +12,7 @@ main.appendChild(ul);
 var li = document.createElement('li');
 ul.appendChild(li);
 
-console.log(header);
+var headerText = document.createTextNode('This is header text!');
+var listItemNext = document.createTextNode('This is the list item');
+
+console.log(headerText);

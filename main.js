@@ -13,6 +13,8 @@ var li = document.createElement('li');
 ul.appendChild(li);
 
 var headerText = document.createTextNode('This is header text!');
-var listItemNext = document.createTextNode('This is the list item');
+var listItemText = document.createTextNode('This is the list item');
+header.appendChild(headerText);
+li.appendChild(listItemText);
 
 console.log(headerText);

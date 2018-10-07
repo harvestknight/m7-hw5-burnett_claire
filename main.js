@@ -28,4 +28,6 @@ var linkText = document.createTextNode('This is my link');
 link.appendChild(linkText);
 link.href = 'https://www.google.com/';
 
+var notLinkListItem = linkListItem.previousElementSibling
+
 console.log(link);

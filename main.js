@@ -24,5 +24,6 @@ var link = document.createElement('a');
 var linkListItem = document.createElement('li');
 link.appendChild(linkListItem);
 linkListItem.appendChild(ul);
+var linkText = document.createTextNode('This is my link');
 
 console.log(link);
